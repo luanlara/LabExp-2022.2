@@ -1,3 +1,7 @@
-fundo1 {
+img {
+    max-width: 100%;
+}
+
+.fundo1 {
     background-color: aqua;
 }

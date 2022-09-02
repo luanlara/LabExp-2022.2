@@ -2,6 +2,29 @@ img {
     max-width: 100%;
 }
 
-.fundo1 {
-    background-color: aqua;
+.limitador {
+    max-width: 100%;
+    margin: 0px auto;
 }
+
+.fundo1 {
+    background-image: url("../fotos/background1.png");
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.logorosa {
+    padding: 50px;
+}
+
+.logonu {
+    text-align: center;
+    padding: 110px 0px 20px ;
+}
+
+.titulo1 {
+    color: white;
+}
+
+

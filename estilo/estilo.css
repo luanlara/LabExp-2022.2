@@ -64,14 +64,67 @@ body {
 .textoicones {
     font-size: 30px;
     text-align: center;
+    color: #fd729b;
+    text-decoration: none;
+}
+
+.textoicones:hover{
+    color: #a2d6ad;
+    text-decoration: none;
 }
 
 .subtextoicones {
     text-align: center;
+    color: #fd729b;
 }
 
 .fundo3 {
-    background-image: url("../fotos/");
+    background-image: url("../fotos/fundo3.png");
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
 }
+
+.rosto{
+    padding: 30px 0px 30px 30px;
+}
+
+.limitador2 {
+    padding: 29px 0px 0px 0px;
+}
+
+.titulo2{
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffd215;
+    padding: 55px 0px 20px 30px;
+}
+
+.subtitulo1{
+    font-weight: bold;
+    font-size: 28px;
+    color: #ffd215;
+    padding: 0px 0px 20px 30px;
+    line-height: 27px;
+}
+
+.texto1{
+    color: #ffd215;
+    font-size: 20px;
+    padding: 10px 0px 30px 30px;
+    line-height: 19px;
+}
+
+.texto2{
+    color: #ffd215;
+    font-size: 20px;
+    padding: 0px 0px 40px 30px;
+    line-height: 19px;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
 
 

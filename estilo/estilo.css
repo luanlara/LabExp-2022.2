@@ -7,7 +7,7 @@ body {
 }
 
 .limitador {
-    max-width: 100%;
+    max-width: 1400px;
     margin: 0px auto;
 }
 
@@ -51,7 +51,24 @@ body {
 
 .fundo1 {
     background-image: url("../fotos/background1.png");
-    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.fundo1b {
+    background-image: url("../fotos/background1b.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.fundo1c {
+    background-image: url("../fotos/background1c.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.fundo1d {
+    background-image: url("../fotos/background1d.png");
     background-position: center center;
     background-size: cover;
 }
@@ -117,10 +134,20 @@ body {
 }
 
 .fundo3 {
+    background-color: rgba(255, 0, 0, 0.5);
+    position: relative;
+}
+
+.fundo-muro {
     background-image: url("../fotos/fundo3.png");
-    max-width: 100%;
-    background-position: center center;
     background-size: cover;
+    background-position: center center;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
 }
 
 .rosto{
@@ -148,14 +175,14 @@ body {
 
 .texto1{
     color: #ffd215;
-    font-size: 20px;
+    font-size: 22px;
     padding: 10px 0px 30px 30px;
     line-height: 19px;
 }
 
 .texto2{
     color: #ffd215;
-    font-size: 20px;
+    font-size: 22px;
     padding: 0px 0px 40px 30px;
     line-height: 19px;
 }
@@ -164,3 +191,22 @@ body {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+
+
+.titulo3{
+    text-align: center;
+    padding: 40px 20px 0px 20px ;
+    font-size: 33px;
+    font-weight: bold;
+    color: #fd729b;
+}
+
+
+.fundo5 {
+    background-color: #ffd215;
+    background-position: center center;
+    background-size:cover;
+}
+>>>>>>> 7f528321069c086cb483e398f0a92871ce7c5c3d

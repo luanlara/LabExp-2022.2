@@ -11,6 +11,44 @@ body {
     margin: 0px auto;
 }
 
+.navbar {
+    padding: 0px;
+    background-size: auto;
+    border-width: 0px;
+}
+
+.redesnavbar {
+    background-repeat: 25%;
+}
+
+.linksnavbar {
+    text-decoration: none;
+    color: orangered;
+    font-size: 30px;
+}
+
+.linksnavbar:hover{
+    background-color: orangered;
+    color: #fd729b;
+}
+
+.facebook {
+    background-color: orangered;
+}
+
+.instagram {
+    background-color: orangered;
+}
+
+.linkedin {
+    background-color: orangered;
+}
+
+.youtube {
+    background-color: orangered;
+}
+
+
 .fundo1 {
     background-image: url("../fotos/background1.png");
     max-width: 100%;
@@ -125,6 +163,4 @@ body {
 .negrito{
     font-weight: bold;
 }
-
-
 

@@ -203,6 +203,10 @@ body {
     padding: 40px;
 }
 
+.w-100{
+    width: 100%;
+}
+
 .textocoluna {
     font-size: 30px;
     color: #28a552;
@@ -212,25 +216,32 @@ body {
 
 .coluna1 {
     background-color:#ffd215;
-    padding: 20px 10px;
+    padding: 20px 20px 20px 20px;
 }
 
 .coluna2 {
     background-color:#ffd215;
-    padding: 20px 10px;
+    padding: 20px 20px 20px 20px;
 }
 
 .coluna3 {
     background-color:#ffd215;
-    padding: 20px 10px;
+    padding: 20px 20px 20px 20px;
 }
 
 .coluna4     {
     background-color:#ffd215;
-    padding: 20px 10px;
+    padding: 20px 20px 20px 20px;
 }
 
+.porcentagem-col {
+    padding: 20px 20px 20px 20px;
+}
 
 .fundo5 {
     background-color: #ffd215;
+}
+
+.padcol1 {
+    padding: 0px 200px 0px 200px;
 }

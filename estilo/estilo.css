@@ -196,7 +196,7 @@ body {
     padding: 40px 20px 0px 20px ;
     font-size: 33px;
     font-weight: bold;
-    color: #fd729b;
+    color: #e83517; 
 }
 
 .fundo4 {
@@ -214,34 +214,48 @@ body {
     text-align: center;
 }
 
-.coluna1 {
+.coluna-amarela {
     background-color:#ffd215;
-    padding: 20px 20px 20px 20px;
-}
-
-.coluna2 {
-    background-color:#ffd215;
-    padding: 20px 20px 20px 20px;
-}
-
-.coluna3 {
-    background-color:#ffd215;
-    padding: 20px 20px 20px 20px;
-}
-
-.coluna4     {
-    background-color:#ffd215;
-    padding: 20px 20px 20px 20px;
+    padding: 10px;
 }
 
 .porcentagem-col {
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
 }
 
 .fundo5 {
     background-color: #ffd215;
 }
 
-.padcol1 {
-    padding: 0px 200px 0px 200px;
+.limitador-graficos {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.num{
+    color: azure;
+}
+
+.text{
+    color: #e83517;
+}
+
+.botao2 {
+    font-size: 20px;
+    border-radius: 999px;
+    background-color: #e83517; 
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+.botao2:hover {
+    background-color: #fd729b;
+    color: #e83517;
+    text-decoration: none;
+}
+
+.paddbotao {
+    text-align: center;
+    padding: 20px 0px 30px;
 }

@@ -236,7 +236,21 @@ body {
     color: azure;
 }
 
-.text{
+.texto3{
+    color: #e83517;
+}
+
+.linktexto{
+    color: #fd729b;
+    text-decoration: none;
+}
+
+.linktexto:hover{
+    color:#28a552;
+    text-decoration: none;
+}
+
+.texto4{
     color: #e83517;
 }
 
@@ -251,11 +265,105 @@ body {
 
 .botao2:hover {
     background-color: #fd729b;
-    color: #e83517;
+    color: #ffd215;
     text-decoration: none;
 }
 
 .paddbotao {
     text-align: center;
     padding: 20px 0px 30px;
+}
+
+.titulo4{
+    color: #28a552; 
+}
+
+.texto5{
+    color:#28a552;
+    font-size: 18px;
+}
+
+.linktexto2{
+    color:#fd729b;
+    font-weight: bold;
+}
+
+.linktexto2:hover{
+    color: #28a552;
+    text-decoration: none;
+}
+
+.linktexto3{
+    color: #28a552;
+    font-weight: bold;
+}
+
+.linktexto3:hover{
+    color: #fd729b;
+    text-decoration: none;
+}
+
+
+.linktexto4 {
+    color: white;
+    text-decoration: none;
+}
+
+.linktexto4:hover{
+    color: #28a552;
+    text-decoration: none;
+}
+
+.fundorosa {
+    background-color: #fd729b;
+}
+
+.fundoverm {
+    background-color: #e83517;
+}
+
+.titulo5{
+    text-align: center;
+    font-weight: bold; 
+    margin: 30px auto 5px auto;
+}
+
+.subtitulovalor{
+    color: #ffd215;
+    text-align: center;
+    font-size: 32px;
+    padding: 30px 20px;
+}
+
+.topicos {
+    color: #ffd215;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px 85px;
+}
+
+.fundo8{
+    background-color: #ffd215;
+    padding: 20px;
+}
+
+.titulo6 {
+    color: white;
+    font-weight: bold;
+}
+
+.subtitulo2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto6{
+    color: white;
+    font-size: 20px;
+}
+
+.titulo7 {
+    color: #fd729b;
+    font-weight: bold;
 }

@@ -243,15 +243,15 @@ body {
 .botao2 {
     font-size: 20px;
     border-radius: 999px;
-    background-color: #e83517; 
+    background-color: #fd729b; 
     color: white;
     padding: 5px 25px;
     text-decoration: none;
 }
 
 .botao2:hover {
-    background-color: #fd729b;
-    color: #e83517;
+    background-color:#e83517 ;
+    color: #fd729b;
     text-decoration: none;
 }
 

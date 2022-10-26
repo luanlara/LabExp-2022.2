@@ -378,3 +378,27 @@ body {
 .textosf9{
     color: #fd729b;
 }
+
+.fundo10 {
+    background-color: #fd729b;
+    padding: 15px 20px;
+}
+
+.titulo8 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.texto7 {
+    color: white;
+}
+
+.texto8 {
+    color: white;
+}
+
+.titulo9 {
+    color:#e83517;
+    font-weight: bold;
+}

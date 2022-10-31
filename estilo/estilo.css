@@ -11,20 +11,41 @@ body {
     margin: 0px auto;
 }
 
-.navbar {
-    padding: 0px;
-    background-size: auto;
-    border-width: 0px;
-}
-
 .redesnavbar {
     background-repeat: 25%;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.nav-item{
+    padding: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: orangered;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.a.nav-link{
+    padding: 0px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fefef4;
+    background-color: orangered;
 }
 
 .linksnavbar {
     text-decoration: none;
     color: orangered;
-    font-size: 30px;
 }
 
 .linksnavbar:hover{
@@ -84,6 +105,13 @@ body {
 
 .titulo1 {
     color: white;
+    font-weight: bold;
+    font-size: 62px;
+    padding: 15px 5px;
+}
+
+.divtitulo {
+    padding: 0px;
 }
 
 .linharosa {
@@ -91,36 +119,38 @@ body {
 }
 
 .botao1 {
-    font-size: 20px;
-    border-radius: 999px;
+    font-size: 45px;
+    font-weight: bold;
+    border-radius: 7px;
     background-color: #fd729b; 
     color: white;
-    padding: 5px 25px;
+    padding: 15px 45px;
     text-decoration: none;
 }
 
 .botao1:hover {
-    background-color: orange;
+    background-color:#ffd215;
     color: #fd729b;
     text-decoration: none;
 }
 
 .fundo2 {
-    padding: 40px 40px 60px 40px;
+    padding: 40px 60px;
+    background-color: #fefef4;
 }
 
 .icones {
     padding: 35px;
-    background-color: white;
     text-align: center;
     max-width: 100%;
 }
 
 .textoicones {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     color: #fd729b;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .textoicones:hover{
@@ -131,6 +161,8 @@ body {
 .subtextoicones {
     text-align: center;
     color: #fd729b;
+    font-size: 20px;
+    padding: 5px 120px;
 }
 
 .fundo3 {
@@ -191,12 +223,12 @@ body {
     font-weight: bold;
 }
 
-.titulo3{
+.titulo3 {
     text-align: center;
-    padding: 40px 20px 0px 20px ;
+    padding: 4rem 1rem;
     font-size: 33px;
     font-weight: bold;
-    color: #e83517; 
+    color: #e83517;
 }
 
 .fundo4 {
@@ -214,9 +246,24 @@ body {
     text-align: center;
 }
 
-.coluna-amarela {
-    background-color:#ffd215;
+.coluna-salmao {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 20rem;
+    background-color:#fc729c;
+    color: #fff;
     padding: 10px;
+}
+
+.coluna-amarela {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color:#ffd215;
 }
 
 .porcentagem-col {
@@ -234,6 +281,8 @@ body {
 
 .num{
     color: azure;
+    font-size: 10rem;
+    padding-right: 0.5rem;
 }
 
 .texto3{

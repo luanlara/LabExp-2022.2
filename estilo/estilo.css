@@ -226,7 +226,7 @@ body {
 .titulo3 {
     text-align: center;
     padding: 4rem 1rem;
-    font-size: 33px;
+    font-size: 50px;
     font-weight: bold;
     color: #e83517;
 }
@@ -266,6 +266,10 @@ body {
     background-color:#ffd215;
 }
 
+.livro1 {
+    padding: 0px 150px 70px 0px
+}
+
 .porcentagem-col {
     padding: 20px;
 }
@@ -286,7 +290,14 @@ body {
 }
 
 .texto3{
+    font-size: 22px;
+    font-weight: bold;
     color: #e83517;
+}
+
+.lineheight{
+    line-height: 15px;
+    
 }
 
 .linktexto{
@@ -300,15 +311,21 @@ body {
 }
 
 .texto4{
+    font-size: 17px;
     color: #e83517;
 }
 
+.padtexto4{
+    padding: 35px 0px 0px 0px;
+}
+
 .botao2 {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
     border-radius: 999px;
     background-color:#e83517; 
     color: white;
-    padding: 5px 25px;
+    padding: 15px 30px 15px 30px;
     text-decoration: none;
 }
 
@@ -329,15 +346,21 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+    padding: 0px 0px 60px 0px;
 }
 
 .titulo4{
     color: #28a552; 
+    font-weight: bold;
+    font-size: 57px;
+    padding: 55px 0px 30px 130px;
 }
 
 .texto5{
     color:#28a552;
-    font-size: 18px;
+    font-size: 23px;
+    line-height: 20px;
+    padding: 0px 230px 0px 130px;
 }
 
 .linktexto2{
@@ -352,6 +375,8 @@ body {
 
 .linktexto3{
     color: #28a552;
+    font-size: 23px;
+    padding: 15px 200px 0px 130px;
     font-weight: bold;
 }
 

@@ -184,6 +184,20 @@ body {
 
 .rosto{
     padding: 30px 0px 30px 30px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px 40px 0px;
+}
+
+.rosto2{
+    padding: 30px 0px 30px 30px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 30px 0px 0px;
 }
 
 .limitador2 {
@@ -447,20 +461,29 @@ body {
 .titulo7 {
     color: #fd729b;
     font-weight: bold;
+    padding: 15px;
 }
 
 .subtitulosf9{
     color: #fd729b;
     font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 10px;
 }
 
 .textosf9{
     color: #fd729b;
+    font-size: 16px;
+    font-weight: 650;
+    text-align: center;
+    line-height: 17px;
+   
 }
 
 .fundo10 {
     background-color: #fd729b;
-    padding: 15px 20px;
+    padding: 45px 20px 45px 20px;
 }
 
 .titulo8 {
@@ -480,4 +503,53 @@ body {
 .titulo9 {
     color:#e83517;
     font-weight: bold;
+}
+
+.Espaco {
+    padding: 20px 0px 20px 0px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.EspacoSP {
+    padding: 0px 0px 0px 0px;
+}
+
+.EspacoPI {
+    padding: 0px 0px 0px 100px;
+}
+
+.EspacoTSM {
+    padding: 0px 100px 0px 0px;
+}
+
+.fundo11 {
+    background-color:#f8edf0;
+}
+
+.botao3 {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 999px;
+    background-color:#ffd215; 
+    color: #ffd7e3;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+}
+
+.EspacoC {
+    padding: 80px 0px 40px 0px;
+}
+
+.paddbotao3 {
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+
+.botao3:hover {
+    color: #fd729b;
+    background-color: #fd729b;
+    color: #ffd215;
+    text-decoration: none;
 }
